@@ -1,16 +1,9 @@
 #!/usr/bin/python
 
 '''
-Script to generate passphrases according to the vocabular in:
-http://world.std.com/~reinhold/diceware.wordlist.asc
+Script to generate passphrases according to a fixed vocabulary.
 
-To see why this might be a better algorithm for choosing a password:
-https://blog.agilebits.com/2011/06/21/toward-better-master-passwords/
-
-And see how long your passwords need to be:
-https://blog.agilebits.com/2013/04/16/1password-hashcat-strong-master-passwords/
-
-Two dictionaries are supported.  English (vocab size 7776) or multi language  (vocab size 537566)
+See https://github.com/tianhuil/dicewords
 '''
 
 import re
